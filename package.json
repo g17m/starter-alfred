@@ -40,18 +40,18 @@
     "test": "vitest"
   },
   "dependencies": {
-    "alfy": "^2.0.0"
+    "alfy": "^2.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.20.0",
     "@antfu/ni": "^0.21.12",
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.19.43",
     "eslint-plugin-format": "^0.1.1",
     "lint-staged": "^15.2.5",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
-    "vitest": "^1.6.0"
+    "vitest": "^1.6.1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
